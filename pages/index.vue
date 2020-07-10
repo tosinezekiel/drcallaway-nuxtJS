@@ -1,68 +1,200 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        drcallaway-nuxtJS
-      </h1>
-      <h2 class="subtitle">
-        Drcallaway nuxt project
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div>
+    <div class="app-content content">
+      <div class="content-overlay"></div>
+      <div class="header-navbar-shadow"></div>
+      <div class="content-wrapper">
+        <div class="content-header row"></div>
+        <div class="content-body">
+          <section class="row flexbox-container">
+            <div class="col-xl-10 col-12 d-flex justify-content-center">
+              <div class="card bg-authentication rounded-0 mb-0">
+                <div class="row m-0">
+                  <div
+                    class="col-lg-4 d-lg-block d-none text-center align-self-center pl-0 pr-3 py-0"
+                  >
+                    <img
+                      src="app-assets/images/pages/register.jpg"
+                      alt="branding logo"
+                    />
+                  </div>
+                  <div class="col-lg-8 col-12 p-0">
+                    <div class="card rounded-0 mb-0 p-2">
+                      <div class="card-header pt-50 pb-1">
+                        <div class="card-title">
+                          <h4 class="mb-0">PATIENT REGISTRATION</h4>
+                        </div>
+                      </div>
+                      <p class="px-2">
+                        Fill the below form to create a new account.
+                      </p>
+                      <div class="card-content">
+                        <div class="card-body pt-0">
+                          <div class="col-12 pl-0">
+                            <form action="">
+                              <div class="row">
+                                <div class="col-xl-4 col-md-6 col-12 mb-0">
+                                  <fieldset class="form-group">
+                                    <label for="basicInput">First Name:</label>
+                                    <input
+                                      id="basicInput"
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="Enter first name"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-xl-4 col-md-6 col-12 mb-0">
+                                  <fieldset class="form-group">
+                                    <label for="basicInput">Last Name:</label>
+                                    <input
+                                      id="basicInput"
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="Enter last name"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-xl-4 col-md-6 col-12 mb-0">
+                                  <fieldset class="form-group">
+                                    <label for="basicInput">Email:</label>
+                                    <input
+                                      id="basicInput"
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="Enter email"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-xl-4 col-md-6 col-12 mb-0">
+                                  <fieldset class="form-group">
+                                    <label for="basicInput">Phone:</label>
+                                    <input
+                                      id="basicInput"
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="Enter Phone"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-xl-4 col-md-6 col-12 mb-0">
+                                  <fieldset class="form-group">
+                                    <label for="basicInput">Password:</label>
+                                    <input
+                                      id="basicInput"
+                                      type="password"
+                                      class="form-control"
+                                      placeholder="Enter Password"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-xl-4 col-md-6 col-12 mb-0">
+                                  <fieldset class="form-group">
+                                    <label for="basicInput"
+                                      >Password Confirmation:</label
+                                    >
+                                    <input
+                                      id="basicInput"
+                                      type="password"
+                                      class="form-control"
+                                      placeholder="Enter Password Confirmation"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-xl-4 col-md-6 col-12 mb-0">
+                                  <div class="text-bold-100 font-small-2">
+                                    Date-of-Birth:
+                                  </div>
+                                  <fieldset class="form-group">
+                                    <select
+                                      id="customSelect"
+                                      class="custom-select"
+                                      style="width:25%;"
+                                    >
+                                      <option selected>01</option>
+                                      <option value="">02</option>
+                                      <option value="">03</option>
+                                      <option value="">04</option>
+                                    </select>
+                                    <select
+                                      id="customSelect"
+                                      class="custom-select"
+                                      style="width:30%;"
+                                    >
+                                      <option selected>January</option>
+                                      <option value="">February</option>
+                                      <option value="">March</option>
+                                      <option value="">April</option>
+                                      <option value="">May</option>
+                                    </select>
+                                    <select
+                                      id="customSelect"
+                                      class="custom-select"
+                                      style="width:40%;"
+                                    >
+                                      <option selected>1990</option>
+                                      <option value="">1991</option>
+                                      <option value="">1992</option>
+                                      <option value="">1993</option>
+                                    </select>
+                                  </fieldset>
+                                </div>
+                                <div class="col-xl-4 col-md-6 col-12 mb-0">
+                                  <div class="text-bold-100 font-small-2">
+                                    Gender:
+                                  </div>
+                                  <fieldset class="form-group">
+                                    <ul class="list-unstyled mb-0">
+                                      <li class="d-inline-block mr-2">
+                                        <fieldset>
+                                          <label>
+                                            <input
+                                              type="radio"
+                                              name="radio"
+                                              checked
+                                            />
+                                            Male
+                                          </label>
+                                        </fieldset>
+                                      </li>
+                                      <li class="d-inline-block mr-2">
+                                        <fieldset>
+                                          <label>
+                                            <input type="radio" name="radio" />
+                                            Female
+                                          </label>
+                                        </fieldset>
+                                      </li>
+                                    </ul>
+                                  </fieldset>
+                                </div>
+                              </div>
+                              <div class="col-12 pl-0">
+                                <p>
+                                  Already have an account?
+                                  <a href="login.html">login</a>
+                                </p>
+                                <a href="verify.html" class="btn btn-primary">
+                                  Register</a
+                                >
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
     </div>
   </div>
 </template>
-
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  }
+  name: 'Register'
 }
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>

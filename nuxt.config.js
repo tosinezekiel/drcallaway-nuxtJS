@@ -1,10 +1,11 @@
+/* eslint-disable prettier/prettier */
 export default {
   mode: 'universal',
   /*
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'DrCallAWay',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -14,7 +15,26 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {rel: 'stylesheet', href: '/app-assets/vendors/css/tables/datatable/datatables.min.css'},
+      {rel: 'stylesheet', href: '/app-assets/vendors/css/charts/apexcharts.css'},
+      {rel: 'stylesheet', href: '/app-assets/vendors/css/ui/prism.min.css'},
+      {rel: 'stylesheet', href: '/app-assets/vendors/css/file-uploaders/dropzone.min.css'},
+      {rel: 'stylesheet', href: '/app-assets/vendors/css/tables/datatable/extensions/dataTables.checkboxes.css'},
+      {rel: 'stylesheet', href: '/app-assets/css/bootstrap.css'},
+      {rel: 'stylesheet', href: '/app-assets/css/bootstrap-extended.css'},
+      {rel: 'stylesheet', href: '/app-assets/css/colors.css'},
+      {rel: 'stylesheet', href: '/app-assets/css/components.css'},
+      {rel: 'stylesheet', href: '/app-assets/css/themes/dark-layout.css'},
+      {rel: 'stylesheet', href: '/app-assets/css/themes/semi-dark-layout.css'},
+      {rel: 'stylesheet', href: '/app-assets/css/pages/card-analytics.css'},
+      {rel: 'stylesheet', href: '/app-assets/css/pages/data-list-view.css'},
+      {rel: 'stylesheet', href: '/app-assets/css/core/menu/menu-types/vertical-menu.css'},
+      {rel: 'stylesheet', href: '/app-assets/css/core/colors/palette-gradient.css'},
+      {rel: 'stylesheet', href: '/app-assets/css/pages/authentication.css'},
+      {rel: 'stylesheet', href: '/app-assets/vendors/css/vendors.min.css'},
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -23,7 +43,24 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    '~assets/css/style.css',
+  ],
+
+  // Load all javascript codes here
+  script: [
+    {type: 'text/javascript', src: '/app-assets/vendors/js/vendors.min.js', defer: true},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/forms/select/select2.full.min.js'},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/tables/datatable/datatables.bootstrap4.min.js'},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/ui/prism.min.js'},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/charts/apexcharts.min.js'},
+    {type: 'text/javascript', src: '/app-assets/js/core/app-menu.js'},
+    {type: 'text/javascript', src: '/app-assets/js/core/app.js'},
+    {type: 'text/javascript', src: '/app-assets/js/scripts/cards/card-analytics.js'},
+    {type: 'text/javascript', src: '/app-assets/js/scripts/ui/data-list-view.js'},
+  ],
+
+
   /*
    ** Plugins to load before mounting the App
    */
@@ -33,7 +70,7 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module',
+    // '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module'
   ],
