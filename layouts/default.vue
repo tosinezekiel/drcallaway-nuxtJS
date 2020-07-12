@@ -1,19 +1,19 @@
 /* eslint-disable prettier/prettier */
 <template>
   <div>
-    <the-header />
+    <!-- <the-header /> -->
     <nuxt />
-    <the-footer />
+    <!-- <the-footer /> -->
   </div>
 </template>
 
 <script>
-import TheHeader from '~/components/TheHeader'
-import TheFooter from '~/components/TheFooter'
+// import TheHeader from '~/components/TheHeader'
+// import TheFooter from '~/components/TheFooter'
 
 export default {
   middleware: [],
-  components: { TheHeader, TheFooter },
+  // components: { TheHeader, TheFooter },
   created() {},
   mounted() {}
 }
