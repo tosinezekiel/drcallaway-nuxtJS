@@ -47,7 +47,15 @@ export default {
     {type: 'text/javascript', src: '/app-assets/js/core/app.js', defer: true},
     {type: 'text/javascript', src: '/app-assets/js/scripts/cards/card-analytics.js', defer: true},
     {type: 'text/javascript', src: '/app-assets/js/scripts/ui/data-list-view.js', defer: true},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/extensions/dropzone.min.js'},
     {type: 'text/javascript', src: 'https://unpkg.com/ionicons@5.1.2/dist/ionicons.js'},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/tables/datatable/datatables.min.js'},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/tables/datatable/datatables.buttons.min.js'},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/tables/datatable/buttons.bootstrap.min.js'},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/tables/datatable/dataTables.select.min.js'},
+    {type: 'text/javascript', src: '/app-assets/vendors/js/tables/datatable/datatables.checkboxes.min.js'},
+    {type: 'text/javascript', src: '/app-assets/js/scripts/components.js'},
+
   ],
   },
   /*

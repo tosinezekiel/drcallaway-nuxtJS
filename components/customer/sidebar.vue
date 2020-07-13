@@ -7,13 +7,16 @@
       <div class="navbar-header">
         <ul class="nav navbar-nav flex-row">
           <li class="nav-item mr-auto">
-            <a class="navbar-brand" href="#">
+            <nuxt-link class="navbar-brand" to="#">
               <div class="brand-logo"></div>
               <h2 class="brand-text mb-0">Drcallaway</h2>
-            </a>
+            </nuxt-link>
           </li>
           <li class="nav-item nav-toggle">
-            <a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"
+            <nuxt-link
+              to="#"
+              class="nav-link modern-nav-toggle pr-0"
+              data-toggle="collapse"
               ><i
                 class="feather icon-x d-block d-xl-none font-medium-4 primary toggle-icon"
               ></i
@@ -21,96 +24,96 @@
                 class="toggle-icon feather icon-disc font-medium-4 d-none d-xl-block primary"
                 data-ticon="icon-disc"
               ></i
-            ></a>
+            ></nuxt-link>
           </li>
         </ul>
       </div>
       <div class="shadow-bottom"></div>
       <div class="main-menu-content">
         <ul
-          class="navigation navigation-main"
           id="main-menu-navigation"
+          class="navigation navigation-main"
           data-menu="menu-navigation"
         >
           <li class="nav-item active">
-            <a href="dashboard.html"
+            <nuxt-link to="dashboard"
               ><i class="feather icon-home"></i
               ><span class="menu-title" data-i18n="Dashboard">Dashboard</span
               ><span class="badge badge badge-warning badge-pill float-right"
                 >2</span
-              ></a
+              ></nuxt-link
             >
           </li>
           <hr />
           <li class=" nav-item">
-            <a href="waiting.html"
+            <nuxt-link to="waiting"
               ><i class="feather icon-phone"></i>
               <span class="menu-title">Call a Doctor</span>
-            </a>
+            </nuxt-link>
           </li>
 
           <li class=" nav-item">
-            <a href="profile.html"
+            <nuxt-link to="profile"
               ><i class="feather icon-user"></i>
               <span class="menu-title">Profile</span>
-            </a>
+            </nuxt-link>
           </li>
           <li class=" nav-item ">
-            <a href="medicalhistory.html"
+            <nuxt-link to="medical-history"
               ><i class="feather icon-book"></i>
               <span class="menu-title">Medical History</span>
-            </a>
+            </nuxt-link>
           </li>
 
           <li class=" nav-item">
-            <a href="consult.html"
+            <nuxt-link to="consultation"
               ><i class="feather icon-users"></i>
               <span class="menu-title">Consultation Room</span>
-            </a>
+            </nuxt-link>
           </li>
           <li class=" nav-item">
-            <a href="referal.html"
+            <nuxt-link to="referal"
               ><i class="feather icon-user-plus"></i>
               <span class="menu-title">Referral</span>
-            </a>
+            </nuxt-link>
           </li>
           <li class=" nav-item">
-            <a href="subscriptionplan.html"
+            <nuxt-link to="subscription-plan"
               ><i class="feather icon-credit-card"></i>
               <span class="menu-title">Subscription Plan</span>
-            </a>
+            </nuxt-link>
           </li>
           <li class=" nav-item">
-            <a href="emergency.html"
+            <nuxt-link to="emergency"
               ><i class="fa fa-ambulance"></i>
               <span class="menu-title">Ambulance</span>
-            </a>
+            </nuxt-link>
           </li>
         </ul>
         <hr />
         <ul
-          class="navigation other-link navigation-main"
           id="main-menu-navigation"
+          class="navigation other-link navigation-main"
           data-menu="menu-navigation"
         >
           <li class=" nav-item">
-            <a href="help.html"
+            <nuxt-link to="help"
               ><i class="feather icon-alert-circle"></i
-              ><span class="menu-title">Help Desk</span></a
-            >
+              ><span class="menu-title">Help Desk</span>
+            </nuxt-link>
           </li>
           <li class=" nav-item">
-            <a href="changepassword.html"
+            <nuxt-link to="change-password"
               ><i class="feather icon-settings"></i
-              ><span class="menu-title">Change Password</span></a
-            >
+              ><span class="menu-title">Change Password</span>
+            </nuxt-link>
           </li>
           <li class=" nav-item">
-            <a href="#"
+            <nuxt-link to="../logout"
               ><i class="feather icon-arrow-left-circle"></i
               ><span class="menu-title" data-i18n="Raise Support"
                 >Logout</span
-              ></a
+              ></nuxt-link
             >
           </li>
         </ul>
