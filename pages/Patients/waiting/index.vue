@@ -90,7 +90,7 @@ export default {
     loader() {
       this.title = 'Your doctor will be with you shortly...'
       this.showLoader = true
-      setInterval(() => {
+      setTimeout(() => {
         this.$router.push('consultation')
       }, 5000)
     }

@@ -21,8 +21,7 @@
                   ></nuxt-link>
                 </li>
               </ul>
-              <ul class="nav navbar-nav bookmark-icons">
-              </ul>
+              <ul class="nav navbar-nav bookmark-icons"></ul>
             </div>
             <ul class="nav navbar-nav float-right">
               <li class="nav-item">
@@ -31,14 +30,14 @@
                 ></nuxt-link>
               </li>
               <li class="dropdown dropdown-notification nav-item">
-                <a
+                <nuxt-link
                   class="nav-link nav-link-label"
-                  href="#"
+                  to="#"
                   data-toggle="dropdown"
                   ><i class="ficon feather icon-bell"></i
                   ><span class="badge badge-pill badge-primary badge-up"
                     >5</span
-                  ></a
+                  ></nuxt-link
                 >
                 <ul
                   class="dropdown-menu dropdown-menu-media dropdown-menu-right"
@@ -179,18 +178,18 @@
                     </a>
                   </li>
                   <li class="dropdown-menu-footer">
-                    <a
+                    <nuxt-link
                       class="dropdown-item p-1 text-center"
-                      href="notifications.html"
-                      >Read all notifications</a
-                    >
+                      to="notifications"
+                      >Read all notifications
+                    </nuxt-link>
                   </li>
                 </ul>
               </li>
               <li class="dropdown dropdown-user nav-item">
-                <a
+                <nuxt-link
                   class="dropdown-toggle nav-link dropdown-user-link"
-                  href="#"
+                  to="#"
                   data-toggle="dropdown"
                 >
                   <div class="user-nav d-sm-flex d-none">
@@ -205,13 +204,14 @@
                       height="40"
                       width="40"
                   /></span>
-                </a>
+                </nuxt-link>
                 <div class="dropdown-menu dropdown-menu-right">
-                  <a class="dropdown-item" href="editprofile.html"
-                    ><i class="feather icon-user"></i> Edit Profile</a
-                  ><a class="dropdown-item" href="message.html"
+                  <nuxt-link class="dropdown-item" to="editprofile"
+                    ><i class="feather icon-user"></i> Edit Profile</nuxt-link
+                  >
+                  <nuxt-link class="dropdown-item" to="message"
                     ><i class="feather icon-mail"></i> My Inbox
-                  </a>
+                  </nuxt-link>
                 </div>
               </li>
             </ul>
@@ -221,9 +221,9 @@
     </nav>
     <ul class="main-search-list-defaultlist d-none">
       <li class="d-flex align-items-center">
-        <a class="pb-25" href="#">
+        <nuxt-link class="pb-25" to="#">
           <h6 class="text-primary mb-0">Files</h6>
-        </a>
+        </nuxt-link>
       </li>
       <li class="auto-suggestion d-flex align-items-center cursor-pointer">
         <nuxt-link
@@ -232,11 +232,7 @@
         >
           <div class="d-flex">
             <div class="mr-50">
-              <img
-                src="~assets/img/icons/xls.png"
-                alt="png"
-                height="32"
-              />
+              <img src="~assets/img/icons/xls.png" alt="png" height="32" />
             </div>
             <div class="search-data">
               <p class="search-data-title mb-0">Two new item submitted</p>
@@ -247,17 +243,13 @@
         </nuxt-link>
       </li>
       <li class="auto-suggestion d-flex align-items-center cursor-pointer">
-        <a
+        <nuxt-link
           class="d-flex align-items-center justify-content-between w-100"
-          href="#"
+          to="#"
         >
           <div class="d-flex">
             <div class="mr-50">
-              <img
-                src="~assets/img/icons/jpg.png"
-                alt="png"
-                height="32"
-              />
+              <img src="~assets/img/icons/jpg.png" alt="png" height="32" />
             </div>
             <div class="search-data">
               <p class="search-data-title mb-0">52 JPG file Generated</p>
@@ -265,20 +257,16 @@
             </div>
           </div>
           <small class="search-data-size mr-50 text-muted">&apos;11kb</small>
-        </a>
+        </nuxt-link>
       </li>
       <li class="auto-suggestion d-flex align-items-center cursor-pointer">
-        <a
+        <nuxt-link
           class="d-flex align-items-center justify-content-between w-100"
-          href="#"
+          to="#"
         >
           <div class="d-flex">
             <div class="mr-50">
-              <img
-                src="~assets/img/icons/pdf.png"
-                alt="png"
-                height="32"
-              />
+              <img src="~assets/img/icons/pdf.png" alt="png" height="32" />
             </div>
             <div class="search-data">
               <p class="search-data-title mb-0">25 PDF File Uploaded</p>
@@ -286,20 +274,16 @@
             </div>
           </div>
           <small class="search-data-size mr-50 text-muted">&apos;150kb</small>
-        </a>
+        </nuxt-link>
       </li>
       <li class="auto-suggestion d-flex align-items-center cursor-pointer">
-        <a
+        <nuxt-link
           class="d-flex align-items-center justify-content-between w-100"
-          href="#"
+          to="#"
         >
           <div class="d-flex">
             <div class="mr-50">
-              <img
-                src="~assets/img/icons/doc.png"
-                alt="png"
-                height="32"
-              />
+              <img src="~assets/img/icons/doc.png" alt="png" height="32" />
             </div>
             <div class="search-data">
               <p class="search-data-title mb-0">Anna_Strong.doc</p>
@@ -307,17 +291,17 @@
             </div>
           </div>
           <small class="search-data-size mr-50 text-muted">&apos;256kb</small>
-        </a>
+        </nuxt-link>
       </li>
       <li class="d-flex align-items-center">
-        <a class="pb-25" href="#">
+        <nuxt-link class="pb-25" to="#">
           <h6 class="text-primary mb-0">Members</h6>
-        </a>
+        </nuxt-link>
       </li>
       <li class="auto-suggestion d-flex align-items-center cursor-pointer">
-        <a
+        <nuxt-link
           class="d-flex align-items-center justify-content-between py-50 w-100"
-          href="#"
+          to="#"
         >
           <div class="d-flex align-items-center">
             <div class="avatar mr-50">
@@ -332,12 +316,12 @@
               <small class="text-muted">UI designer</small>
             </div>
           </div>
-        </a>
+        </nuxt-link>
       </li>
       <li class="auto-suggestion d-flex align-items-center cursor-pointer">
-        <a
+        <nuxt-link
           class="d-flex align-items-center justify-content-between py-50 w-100"
-          href="#"
+          to="#"
         >
           <div class="d-flex align-items-center">
             <div class="avatar mr-50">
@@ -352,12 +336,12 @@
               <small class="text-muted">FontEnd Developer</small>
             </div>
           </div>
-        </a>
+        </nuxt-link>
       </li>
       <li class="auto-suggestion d-flex align-items-center cursor-pointer">
-        <a
+        <nuxt-link
           class="d-flex align-items-center justify-content-between py-50 w-100"
-          href="#"
+          to="#"
         >
           <div class="d-flex align-items-center">
             <div class="avatar mr-50">
@@ -372,12 +356,12 @@
               <small class="text-muted">Digital Marketing Manager</small>
             </div>
           </div>
-        </a>
+        </nuxt-link>
       </li>
       <li class="auto-suggestion d-flex align-items-center cursor-pointer">
-        <a
+        <nuxt-link
           class="d-flex align-items-center justify-content-between py-50 w-100"
-          href="#"
+          to="#"
         >
           <div class="d-flex align-items-center">
             <div class="avatar mr-50">
@@ -392,7 +376,7 @@
               <small class="text-muted">Web Designer</small>
             </div>
           </div>
-        </a>
+        </nuxt-link>
       </li>
     </ul>
     <ul class="main-search-list-defaultlist-other-list d-none">

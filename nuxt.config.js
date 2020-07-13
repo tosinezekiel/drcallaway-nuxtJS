@@ -55,9 +55,9 @@ export default {
     {type: 'text/javascript', src: '/app-assets/vendors/js/tables/datatable/dataTables.select.min.js'},
     {type: 'text/javascript', src: '/app-assets/vendors/js/tables/datatable/datatables.checkboxes.min.js'},
     {type: 'text/javascript', src: '/app-assets/js/scripts/components.js'},
-
   ],
-  },
+},
+
   /*
    ** Customize the progress-bar color
    */
