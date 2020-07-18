@@ -36,7 +36,7 @@
           data-menu="menu-navigation"
         >
           <li class="nav-item active">
-            <nuxt-link to="dashboard"
+            <nuxt-link to="/pharmacy/dashboard"
               ><i class="feather icon-home"></i
               ><span class="menu-title" data-i18n="Dashboard">Dashboard</span
               ><span class="badge badge badge-warning badge-pill float-right"
@@ -53,20 +53,20 @@
             </nuxt-link>
           </li>
           <li class=" nav-item ">
-            <nuxt-link to="prescription"
+            <nuxt-link to="/pharmacy/prescription"
               ><i class="fa fa-list-alt "></i>
               <span class="menu-title">Prescriptions</span>
             </nuxt-link>
           </li>
 
           <li class=" nav-item">
-            <nuxt-link to="delivery"
+            <nuxt-link to="/pharmacy/delivery"
               ><i class="fa fa-shopping-cart"></i>
               <span class="menu-title">Delivery and Pickup</span>
             </nuxt-link>
           </li>
           <li class=" nav-item">
-            <nuxt-link to="message"
+            <nuxt-link to="/pharmacy/message"
               ><i class="fa fa-envelope"></i>
               <span class="menu-title">Message</span>
             </nuxt-link>
@@ -79,19 +79,19 @@
           data-menu="menu-navigation"
         >
           <li class=" nav-item">
-            <nuxt-link to="help"
+            <nuxt-link to="/pharmacy/help"
               ><i class="feather icon-alert-circle"></i
               ><span class="menu-title">Help Desk</span>
             </nuxt-link>
           </li>
           <li class=" nav-item">
-            <nuxt-link to="change-password"
+            <nuxt-link to="/pharmacy/change-password"
               ><i class="feather icon-settings"></i
               ><span class="menu-title">Change Password</span>
             </nuxt-link>
           </li>
           <li class=" nav-item">
-            <nuxt-link to="../logout"
+            <nuxt-link to="~/logout"
               ><i class="feather icon-arrow-left-circle"></i
               ><span class="menu-title" data-i18n="Raise Support"
                 >Logout</span
