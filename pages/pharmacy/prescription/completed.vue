@@ -8,8 +8,94 @@
     >
       <Header></Header>
       <side-bar></side-bar>
-
-      <!-- END: Content-->
+      <div class="app-content content">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper">
+          <div class="content-body">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h4 class="card-title">Completed Prescriptions</h4>
+                  </div>
+                  <div class="card-content">
+                    <div class="card-body">
+                      <ul class="list-group" id="basic-list-group">
+                        <li class="list-group-item">
+                          <div class="media">
+                            <div class="media-body">
+                              <b> 1.   </b> Chupa chups tiramisu apple pie biscuit sweet roll
+                              bonbon macaroon toffee icing.
+                              <nuxt-link
+                              to="details"
+                              class="btn btn-sm btn-primary float-right"
+                              >View</nuxt-link
+                            >
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          <div class="media">
+                            <div class="media-body">
+                              <b> 2.   </b> Chupa chups tiramisu apple pie biscuit sweet roll
+                              bonbon macaroon toffee icing.
+                              <nuxt-link
+                              to="details"
+                              class="btn btn-sm btn-primary float-right"
+                              >View</nuxt-link
+                            >
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          <div class="media">
+                            <div class="media-body">
+                              <b> 3.   </b> Chupa chups tiramisu apple pie biscuit sweet roll
+                              bonbon macaroon toffee icing.
+                              <nuxt-link
+                              to="details"
+                              class="btn btn-sm btn-primary float-right"
+                              >View</nuxt-link
+                            >
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          <div class="media">
+                            <div class="media-body">
+                              <b> 4.   </b> Chupa chups tiramisu apple pie biscuit sweet roll
+                              bonbon macaroon toffee icing.
+                              <nuxt-link
+                              to="details"
+                              class="btn btn-sm btn-primary float-right"
+                              >View</nuxt-link
+                            >
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          <div class="media">
+                            <div class="media-body">
+                              <b> 5.   </b> Chupa chups tiramisu apple pie biscuit sweet roll
+                              bonbon macaroon toffee icing.
+                              <nuxt-link
+                              to="details"
+                              class="btn btn-sm btn-primary float-right"
+                              >View</nuxt-link
+                            >
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div class="sidenav-overlay"></div>
       <div class="drag-target"></div>
