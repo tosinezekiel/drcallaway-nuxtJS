@@ -107,9 +107,9 @@
   </div>
 </template>
 <script>
-import Header from '~/components/customer/Header'
-import Footer from '~/components/customer/Footer'
-import SideBar from '~/components/customer/SideBar'
+import Header from '~/components/Customer/Header'
+import Footer from '~/components/Customer/Footer'
+import SideBar from '~/components/Customer/SideBar'
 
 export default {
   name: 'Dashboard',

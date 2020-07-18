@@ -45,12 +45,6 @@
             >
           </li>
           <hr />
-          <li class=" nav-item">
-            <nuxt-link to="waiting"
-              ><i class="feather icon-phone"></i>
-              <span class="menu-title">Call a Doctor</span>
-            </nuxt-link>
-          </li>
 
           <li class=" nav-item">
             <nuxt-link to="profile"
@@ -59,34 +53,22 @@
             </nuxt-link>
           </li>
           <li class=" nav-item ">
-            <nuxt-link to="medical-history"
-              ><i class="feather icon-book"></i>
-              <span class="menu-title">Medical History</span>
+            <nuxt-link to="prescription"
+              ><i class="fa fa-list-alt "></i>
+              <span class="menu-title">Prescriptions</span>
             </nuxt-link>
           </li>
 
           <li class=" nav-item">
-            <nuxt-link to="consultation"
-              ><i class="feather icon-users"></i>
-              <span class="menu-title">Consultation Room</span>
+            <nuxt-link to="delivery"
+              ><i class="fa fa-shopping-cart"></i>
+              <span class="menu-title">Delivery and Pickup</span>
             </nuxt-link>
           </li>
           <li class=" nav-item">
-            <nuxt-link to="referal"
-              ><i class="feather icon-user-plus"></i>
-              <span class="menu-title">Referral</span>
-            </nuxt-link>
-          </li>
-          <li class=" nav-item">
-            <nuxt-link to="subscription-plan"
-              ><i class="feather icon-credit-card"></i>
-              <span class="menu-title">Subscription Plan</span>
-            </nuxt-link>
-          </li>
-          <li class=" nav-item">
-            <nuxt-link to="emergency"
-              ><i class="fa fa-ambulance"></i>
-              <span class="menu-title">Ambulance</span>
+            <nuxt-link to="message"
+              ><i class="fa fa-envelope"></i>
+              <span class="menu-title">Message</span>
             </nuxt-link>
           </li>
         </ul>

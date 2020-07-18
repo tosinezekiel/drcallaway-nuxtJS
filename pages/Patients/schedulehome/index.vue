@@ -111,9 +111,9 @@
   </div>
 </template>
 <script>
-import Header from '~/components/Customer/Header'
-import Footer from '~/components/Customer/Footer'
-import SideBar from '~/components/Customer/SideBar'
+import Header from '~/components/customer/Header'
+import Footer from '~/components/customer/Footer'
+import SideBar from '~/components/customer/SideBar'
 
 export default {
   components: {
