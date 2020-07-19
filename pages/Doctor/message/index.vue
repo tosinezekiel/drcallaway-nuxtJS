@@ -39,24 +39,8 @@
                             <li
                               class="list-group-item d-flex justify-content-between align-items-center"
                             >
-                              <nuxt-link to="#">Phnuxt-linkrmarcy</nuxt-link>
-                              <span class="badge badge-danger badge-pill"
-                                >2</span
-                              >
-                            </li>
-                            <li
-                              class="list-group-item d-flex justify-content-between align-items-center"
-                            >
-                              <nuxt-link to="#">Specialist</nuxt-link>
-                              <span class="badge badge-danger badge-pill"
-                                >6</span
-                              >
-                            </li>
-                            <li
-                              class="list-group-item d-flex justify-content-between align-items-center"
-                            >
                               <nuxt-link to="#"
-                                >General Practitioner (GP)</nuxt-link
+                                >Pharmarcy</nuxt-link
                               >
                               <span class="badge badge-danger badge-pill"
                                 >2</span
@@ -94,6 +78,14 @@
                                 >2</span
                               >
                             </li>
+                            <li
+                              class="list-group-item d-flex justify-content-between align-items-center"
+                            >
+                              <nuxt-link to="#">Nutritionist/Wellness Company</nuxt-link>
+                              <span class="badge badge-danger badge-pill"
+                                >2</span
+                              >
+                            </li>
                           </ul>
                         </div>
                       </div>
@@ -115,12 +107,12 @@
   </div>
 </template>
 <script>
-import Header from '~/components/Customer/Header'
-import Footer from '~/components/Customer/Footer'
-import SideBar from '~/components/Customer/SideBar'
+import Header from '~/components/Doctor/Header'
+import Footer from '~/components/Doctor/Footer'
+import SideBar from '~/components/Doctor/SideBar'
 
 export default {
-  name: 'Dashboard',
+  name: 'Message',
   components: {
     Header,
     Footer,

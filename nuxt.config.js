@@ -32,6 +32,8 @@ export default {
       {rel: 'stylesheet', href: '/app-assets/css/pages/data-list-view.css'},
       {rel: 'stylesheet', href: '/app-assets/css/core/menu/menu-types/vertical-menu.css'},
       {rel: 'stylesheet', href: '/app-assets/css/core/colors/palette-gradient.css'},
+      {rel: 'stylesheet', href: '/app-assets/css/pages/dashboard-ecommerce.css'},
+      {rel: 'stylesheet', href: '/app-assets/css/pages/app-user.css'},
       {rel: 'stylesheet', href: '/app-assets/css/pages/authentication.css'},
       {rel: 'stylesheet', href: '/app-assets/vendors/css/vendors.min.css'},
       {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600'}

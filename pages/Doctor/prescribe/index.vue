@@ -18,7 +18,7 @@
               <div class="row breadcrumbs-top">
                 <div class="col-12">
                   <h4 class="content-header-title float-left mb-0">
-                    Help Desk
+                    Prescription
                   </h4>
                 </div>
               </div>
@@ -42,25 +42,25 @@
                               <div class="row">
                                 <div class="col-xl-12 col-md-12 col-12 mb-0">
                                   <fieldset class="form-group">
-                                    <label for="basicInput">Subject:</label>
+                                    <label for="basicInput">Ailment:</label>
                                     <input
                                       type="text"
                                       class="form-control"
                                       id="basicInput"
-                                      placeholder="Enter Subject"
+                                      placeholder="Enter Ailment"
                                     />
                                   </fieldset>
                                 </div>
                                 <div class="col-12">
                                   <div class="form-group">
                                     <label for="accountTextarea"
-                                      >Inquiry/Enquiry:</label
+                                      >Prescription:</label
                                     >
                                     <textarea
                                       class="form-control"
                                       id="accountTextarea"
                                       rows="3"
-                                      placeholder="asthma, lung disease"
+                                      placeholder="prescription"
                                     ></textarea>
                                   </div>
                                 </div>
@@ -69,8 +69,8 @@
                           </form>
                         </div>
                         <div class="col-12 d-flex justify-content-start">
-                          <nuxt-link to="#" class="btn btn-primary"
-                            ><i class="feather"></i> Send</nuxt-link
+                          <nuxt-link to="editprofile" class="btn btn-primary"
+                            ><i class="feather"></i> Submit</nuxt-link
                           >
                         </div>
                       </div>
@@ -92,12 +92,12 @@
   </div>
 </template>
 <script>
-import Header from '~/components/Customer/Header'
-import Footer from '~/components/Customer/Footer'
-import SideBar from '~/components/Customer/SideBar'
+import Header from '~/components/Doctor/Header'
+import Footer from '~/components/Doctor/Footer'
+import SideBar from '~/components/Doctor/SideBar'
 
 export default {
-  name: 'Dashboard',
+  name: 'Prescribe',
   components: {
     Header,
     Footer,
@@ -105,3 +105,4 @@ export default {
   }
 }
 </script>
+

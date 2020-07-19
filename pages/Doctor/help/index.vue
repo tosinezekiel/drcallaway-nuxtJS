@@ -92,12 +92,12 @@
   </div>
 </template>
 <script>
-import Header from '~/components/Customer/Header'
-import Footer from '~/components/Customer/Footer'
-import SideBar from '~/components/Customer/SideBar'
+import Header from '~/components/Doctor/Header'
+import Footer from '~/components/Doctor/Footer'
+import SideBar from '~/components/Doctor/SideBar'
 
 export default {
-  name: 'Dashboard',
+  name: 'Help',
   components: {
     Header,
     Footer,

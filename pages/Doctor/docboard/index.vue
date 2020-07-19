@@ -11,7 +11,7 @@
 
       <div class="app-content content">
         <div class="content-overlay"></div>
-        <!-- <div class="header-navbar-shadow"></div> -->
+        
         <div class="content-wrapper">
           <div class="content-header row">
             <div class="content-header-left col-md-12 col-12 mb-2">
@@ -32,17 +32,17 @@
             </div>
           </div>
           <div class="content-body">
-            <section id="dashboard-analytics" class="mb-0">
+            <section id="dashboard-analytics" class="mb-0 dashboard-content">
               <div class="row justify-content-center">
                 <div class="col-lg-2 col-md-4 col-6 pb-0">
                   <sup class=""
                     ><span
                       class="badge badge-danger csup"
                       style="font-size: 19px;"
-                      >1</span
+                      >2+</span
                     ></sup
                   >
-                  <nuxt-link to="medicalhistory" class="">
+                  <nuxt-link to="/doctor/patients" class="">
                     <div
                       class="card d-flex flex-column justify-content-center"
                       style="border-radius: 33px;background: #F8F8F8;box-shadow: none;"
@@ -56,9 +56,9 @@
                             class="avatar-content"
                             style="width: 130px;height:130px;font-size: 124px; "
                           >
-                            <!-- <i class="fa fa-heartbeat text-primary font-medium-5"></i> -->
+                            
                             <ion-icon
-                              name="fitness-outline"
+                              name="hourglass-outline"
                               size="large"
                               style="width: 80px;height:80px;opacity:0.3"
                             ></ion-icon>
@@ -69,7 +69,7 @@
                         <h3
                           class="text-bold-300 text-center align-self-center mb-1"
                         >
-                          Medical <br />History
+                          Waiting <br />Room
                         </h3>
                       </div>
                     </div>
@@ -83,7 +83,7 @@
                       >4+</span
                     ></sup
                   >
-                  <nuxt-link to="consult" class="a-card">
+                  <nuxt-link to="/doctor/casefile" class="a-card">
                     <div
                       class="card d-flex flex-column justify-content-center"
                       style="border-radius: 33px;background: #F8F8F8;box-shadow: none;"
@@ -97,9 +97,9 @@
                             class="avatar-content"
                             style="width: 130px;height:130px;font-size: 124px;"
                           >
-                            <!-- <i class="fa fa-heartbeat text-primary font-medium-5"></i> -->
+                            
                             <ion-icon
-                              name="chatbubbles-outline"
+                              name="receipt-outline"
                               size="large"
                               style="width: 100px;height:100px;opacity:0.3"
                             ></ion-icon>
@@ -110,7 +110,7 @@
                         <h3
                           class="text-bold-300 text-center align-self-center mb-1"
                         >
-                          Consulting <br />Room
+                          Case <br />Management
                         </h3>
                       </div>
                     </div>
@@ -118,7 +118,7 @@
                 </div>
               </div>
             </section>
-            <!-- Dashboard Analytics end -->
+            
             <section id="dashboard-analytics" class="mt-0">
               <div class="row justify-content-center">
                 <div class="col-lg-2 col-md-4 col-6">
@@ -129,7 +129,7 @@
                       >4+</span
                     ></sup
                   >
-                  <nuxt-link to="consult" class="a-card">
+                  <nuxt-link to="message" class="a-card">
                     <div
                       class="card d-flex flex-column justify-content-center"
                       style="border-radius: 33px;background: #F8F8F8;box-shadow: none;"
@@ -143,9 +143,9 @@
                             class="avatar-content"
                             style="width: 130px;height:130px;font-size: 124px;"
                           >
-                            <!-- <i class="fa fa-heartbeat text-primary font-medium-5"></i> -->
+                           
                             <ion-icon
-                              name="mail-unread-outline"
+                              name="mail-outline"
                               size="large"
                               style="width: 100px;height:100px;opacity:0.3"
                             ></ion-icon>
@@ -170,7 +170,7 @@
                       >4+</span
                     ></sup
                   >
-                  <nuxt-link to="consult" class="a-card">
+                  <nuxt-link to="#" class="a-card">
                     <div
                       class="card d-flex flex-column justify-content-center"
                       style="border-radius: 33px;background: #F8F8F8;box-shadow: none;"
@@ -184,9 +184,9 @@
                             class="avatar-content"
                             style="width: 130px;height:130px;font-size: 124px;"
                           >
-                            <!-- <i class="fa fa-heartbeat text-primary font-medium-5"></i> -->
+                           
                             <ion-icon
-                              name="receipt-outline"
+                              name="today-outline"
                               size="large"
                               style="width: 100px;height:100px;opacity:0.3"
                             ></ion-icon>
@@ -197,7 +197,7 @@
                         <h3
                           class="text-bold-300 text-center align-self-center mb-1"
                         >
-                          My Case <br />File
+                          Appointment
                         </h3>
                       </div>
                     </div>
@@ -205,7 +205,7 @@
                 </div>
               </div>
             </section>
-            <!-- Dashboard Analytics end -->
+            
           </div>
         </div>
       </div>
@@ -219,12 +219,12 @@
   </div>
 </template>
 <script>
-import Header from '~/components/Customer/Header'
-import Footer from '~/components/Customer/Footer'
-import SideBar from '~/components/Customer/SideBar'
+import Header from '~/components/Doctor/Header'
+import Footer from '~/components/Doctor/Footer'
+import SideBar from '~/components/Doctor/SideBar'
 
 export default {
-  name: 'Dashboard',
+  name: 'Docboard',
   components: {
     Header,
     Footer,
@@ -250,7 +250,10 @@ export default {
         }
         @media only screen and (max-width: 768px) {
           /* For mobile phones: */
-          
+         .dashboard-content{
+           padding-top:50px;
+           padding-left:0;
+         }
             .csup {
                 width: 30px;
                 height: 30px;
