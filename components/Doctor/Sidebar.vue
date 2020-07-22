@@ -93,7 +93,7 @@
             </nuxt-link>
           </li>
           <li class=" nav-item">
-            <nuxt-link to="/doctor/change-password"
+            <nuxt-link to="/doctor/changepassword"
               ><ion-icon name="medical-outline" style="margin-right:1em;"></ion-icon>
               <span class="menu-title">Change Password</span>
             </nuxt-link>
