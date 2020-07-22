@@ -6,8 +6,8 @@
       data-menu="vertical-menu-modern"
       data-col="2-columns"
     >
-      <Header></Header>
-      <side-bar></side-bar>
+      <header></header>
+      <Sidebar></Sidebar>
 
       <div class="app-content content">
         <div class="content-overlay"></div>
@@ -116,16 +116,16 @@
   </div>
 </template>
 <script>
-import Header from '~/components/Customer/Header'
-import Footer from '~/components/Customer/Footer'
-import SideBar from '~/components/Customer/SideBar'
+import Header from '~/components/doctor/header'
+import Footer from '~/components/doctor/footer'
+import Sidebar from '~/components/doctor/sidebar'
 
 export default {
-  name: 'Dashboard',
+  name: 'Changepassword',
   components: {
     Header,
     Footer,
-    SideBar
+    Sidebar
   }
 }
 </script>

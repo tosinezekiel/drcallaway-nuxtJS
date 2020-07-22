@@ -22,7 +22,7 @@ const COLORS = [
 
 const FONTS = [ false, 'serif', 'monospace' ];
 
-const HEADERS = [ '1', '2', '3', false ];
+const headerS = [ '1', '2', '3', false ];
 
 const SIZES = [ 'small', false, 'large', 'huge' ];
 
@@ -96,7 +96,7 @@ class BaseTheme extends Theme {
           if (select.classList.contains('ql-font')) {
             fillSelect(select, FONTS);
           } else if (select.classList.contains('ql-header')) {
-            fillSelect(select, HEADERS);
+            fillSelect(select, headerS);
           } else if (select.classList.contains('ql-size')) {
             fillSelect(select, SIZES);
           }

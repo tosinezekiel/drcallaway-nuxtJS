@@ -6664,7 +6664,7 @@ var COLORS = ["#000000", "#e60000", "#ff9900", "#ffff00", "#008a00", "#0066cc", 
 
 var FONTS = [false, 'serif', 'monospace'];
 
-var HEADERS = ['1', '2', '3', false];
+var headerS = ['1', '2', '3', false];
 
 var SIZES = ['small', false, 'large', 'huge'];
 
@@ -6748,7 +6748,7 @@ var BaseTheme = function (_Theme) {
             if (select.classList.contains('ql-font')) {
               fillSelect(select, FONTS);
             } else if (select.classList.contains('ql-header')) {
-              fillSelect(select, HEADERS);
+              fillSelect(select, headerS);
             } else if (select.classList.contains('ql-size')) {
               fillSelect(select, SIZES);
             }
@@ -10277,29 +10277,29 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Header = function (_Block) {
-  _inherits(Header, _Block);
+var header = function (_Block) {
+  _inherits(header, _Block);
 
-  function Header() {
-    _classCallCheck(this, Header);
+  function header() {
+    _classCallCheck(this, header);
 
-    return _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (header.__proto__ || Object.getPrototypeOf(header)).apply(this, arguments));
   }
 
-  _createClass(Header, null, [{
+  _createClass(header, null, [{
     key: 'formats',
     value: function formats(domNode) {
       return this.tagName.indexOf(domNode.tagName) + 1;
     }
   }]);
 
-  return Header;
+  return header;
 }(_block2.default);
 
-Header.blotName = 'header';
-Header.tagName = ['H1', 'H2', 'H3', 'H4', 'H5', 'H6'];
+header.blotName = 'header';
+header.tagName = ['H1', 'H2', 'H3', 'H4', 'H5', 'H6'];
 
-exports.default = Header;
+exports.default = header;
 
 /***/ }),
 /* 67 */

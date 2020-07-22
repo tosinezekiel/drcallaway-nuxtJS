@@ -450,7 +450,7 @@ $(window).on("load", function () {
 
   // tour steps
   tour.addStep('step-1', {
-    text: 'Toggle Collapse Sidebar.',
+    text: 'Toggle Collapse sidebar.',
     attachTo: '.modern-nav-toggle .collapse-toggle-icon bottom',
     buttons: [
 

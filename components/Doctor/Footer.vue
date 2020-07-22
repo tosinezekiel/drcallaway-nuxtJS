@@ -10,7 +10,7 @@
           version 1.0
         </span>
         <span class="float-md-right d-none d-md-block">
-          Doctor<i class="feather icon-heart pink"></i>
+          doctor<i class="feather icon-heart pink"></i>
         </span>
         <button class="btn btn-primary btn-icon scroll-top" type="button">
           <i class="feather icon-arrow-up"></i>
@@ -21,6 +21,8 @@
 </template>
 
 <script>
-export default {}
+export default {
+  name:"Footer"
+}
 </script>
 <style></style>

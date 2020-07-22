@@ -1,4 +1,4 @@
-<!-- BEGIN: Header-->
+<!-- BEGIN: header-->
 <template>
   <div>
     <div class="content-overlay"></div>
@@ -433,11 +433,11 @@
         </a>
       </li>
     </ul>
-    <!-- END: Header-->
+    <!-- END: header-->
   </div>
 </template>
 <script type="text/javascript">
 export default {
-  name: 'Header'
+  name: 'header'
 }
 </script>

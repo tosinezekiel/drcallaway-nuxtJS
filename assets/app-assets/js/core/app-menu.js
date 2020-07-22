@@ -320,7 +320,7 @@
           .change(function () {
             var filter = $(this).val();
             if (filter) {
-              // Hide Main Navigation Headers
+              // Hide Main Navigation headers
               $('.navigation-header').hide();
               // this finds all links in a list that contain the input,
               // and hide the ones not containing the input while showing the ones that do
@@ -905,12 +905,12 @@
      * @param {jQuery} $menuItem The parent menu item containing the submenu.
      */
     adjustSubmenu: function ($menuItem) {
-      var menuHeaderHeight, menutop, topPos, winHeight,
+      var menuheaderHeight, menutop, topPos, winHeight,
         bottomOffset, subMenuHeight, popOutMenuHeight, borderWidth, scroll_theme,
         $submenu = $menuItem.children('ul:first'),
         ul = $submenu.clone(true);
 
-      menuHeaderHeight = $('.main-menu-header').height();
+      menuheaderHeight = $('.main-menu-header').height();
       menutop = $menuItem.position().top;
       winHeight = $window.height() - $('.header-navbar').height();
       borderWidth = 0;

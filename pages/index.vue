@@ -30,7 +30,7 @@
                                         <div class="card-content">
                                             <div class="card-body pt-1 d-flex justify-content-center">
                                                 <nuxt-link to="/patients/signup" style="text-align: center;">Patient | </nuxt-link>
-                                                <nuxt-link to="/doctor/signup" style="text-align: center;"> Doctor | </nuxt-link>
+                                                <nuxt-link to="/doctor/signup" style="text-align: center;"> doctor | </nuxt-link>
                                                 <nuxt-link to="#" style="text-align: center;"> Phamarcy</nuxt-link>
                                             </div>
                                         </div>

@@ -6,8 +6,8 @@
       data-menu="vertical-menu-modern"
       data-col="2-columns"
     >
-      <Header></Header>
-      <side-bar></side-bar>
+      <header></header>
+      <Sidebar></Sidebar>
 
       <div class="app-content content">
         <div class="content-overlay"></div>
@@ -140,16 +140,16 @@
   </div>
 </template>
 <script>
-import Header from '~/components/Doctor/Header'
-import Footer from '~/components/Doctor/Footer'
-import SideBar from '~/components/Doctor/SideBar'
+import Header from '~/components/doctor/header'
+import Footer from '~/components/doctor/footer'
+import Sidebar from '~/components/doctor/sidebar'
 
 export default {
   name: 'Oatients',
   components: {
     Header,
     Footer,
-    SideBar
+    Sidebar
   }
 }
 </script>

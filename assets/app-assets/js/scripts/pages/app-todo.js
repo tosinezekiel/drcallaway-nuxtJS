@@ -16,7 +16,7 @@ $(function() {
     // if it is not touch device
     if (!$.app.menu.is_touch_device()){
   // --------------------------------------------
-  // Sidebar menu scrollbar
+  // sidebar menu scrollbar
   // --------------------------------------------
   if($('.todo-application .sidebar-menu-list').length > 0){
       var content = new PerfectScrollbar('.sidebar-menu-list',{

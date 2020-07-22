@@ -14,7 +14,7 @@
                     <div class="card rounded-0 mb-0 p-2">
                       <div class="card-header pt-50 pb-1">
                         <div class="card-title">
-                          <h4 class="mb-0">DOCTOR REGISTRATION</h4>
+                          <h4 class="mb-0">doctor REGISTRATION</h4>
                         </div>
                       </div>
                       <p class="px-2">

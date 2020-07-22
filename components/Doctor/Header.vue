@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- BEGIN: Header-->
+    <!-- BEGIN: header-->
     <div class="content-overlay"></div>
     <div class="header-navbar-shadow"></div>
     <nav
@@ -393,12 +393,14 @@
         </a>
       </li>
     </ul>
-    <!-- END: Header-->
+    <!-- END: header-->
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  name:"Header"
+}
 </script>
 <style scoped>
 .csup {

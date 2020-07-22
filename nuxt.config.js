@@ -2,7 +2,7 @@
 export default {
   mode: 'universal',
   /*
-   ** Headers of the page
+   ** headers of the page
    */
   head: {
     title: 'DrCallAWay',

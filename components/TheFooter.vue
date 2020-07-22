@@ -1,4 +1,4 @@
-<!-- BEGIN: Footer-->
+<!-- BEGIN: footer-->
 <template>
   <footer class="footer footer-static footer-light">
     <p class="clearfix blue-grey lighten-2 mb-0">
@@ -17,10 +17,10 @@
       </button>
     </p>
   </footer>
-  <!-- END: Footer-->
+  <!-- END: footer-->
 </template>
 <script type="text/javascript">
 export default {
-  name: 'TheFooter'
+  name: 'Thefooter'
 }
 </script>

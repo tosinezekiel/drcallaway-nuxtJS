@@ -8,12 +8,12 @@
 </template>
 
 <script>
-// import TheHeader from '~/components/TheHeader'
-// import TheFooter from '~/components/TheFooter'
+// import Theheader from '~/components/Theheader'
+// import Thefooter from '~/components/Thefooter'
 
 export default {
   middleware: [],
-  // components: { TheHeader, TheFooter },
+  // components: { Theheader, Thefooter },
   created() {},
   mounted() {}
 }

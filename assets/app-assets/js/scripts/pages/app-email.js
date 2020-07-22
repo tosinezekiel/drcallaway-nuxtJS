@@ -9,7 +9,7 @@ $(function () {
 
   // if it is not touch device
   if (!$.app.menu.is_touch_device()){
-  // Email left Sidebar
+  // Email left sidebar
   if ($('.sidebar-menu-list').length > 0) {
     var sidebar_menu_list = new PerfectScrollbar(".sidebar-menu-list");
   }

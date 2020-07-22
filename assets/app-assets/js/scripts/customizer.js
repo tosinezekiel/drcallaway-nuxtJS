@@ -56,7 +56,7 @@
     horizontalNavbar = $(".horizontal-menu-wrapper .header-navbar"),
     navBarShadow = $(".header-navbar-shadow"),
     toggleIcon = $(".toggle-icon"),
-    collapseSidebar = $("#collapse-sidebar-switch"),
+    collapsesidebar = $("#collapse-sidebar-switch"),
     customizer = $(".customizer"),
     brandLogo = $(".brand-logo");
 
@@ -153,17 +153,17 @@
   $(".layout-name[data-layout='" + layout + "']").prop('checked', true);
 
 
-  collapseSidebar.on("click", function(){
+  collapsesidebar.on("click", function(){
     $(".modern-nav-toggle").trigger("click");
     $(".main-menu").trigger('mouseleave');
   });
 
   // checks if main menu is collapsed by default
   if (body.hasClass("menu-collapsed")) {
-    collapseSidebar.prop("checked", true);
+    collapsesidebar.prop("checked", true);
   }
   else {
-    collapseSidebar.prop("checked", false);
+    collapsesidebar.prop("checked", false);
   }
 
   /***** Navbar Color Options *****/
@@ -268,7 +268,7 @@
     }
   });
 
-  /***** Footer Type *****/
+  /***** footer Type *****/
   // Hides footer
   $("#footer-hidden").on("click", function () {
     footer.addClass("d-none");
