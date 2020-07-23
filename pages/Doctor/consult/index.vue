@@ -6,7 +6,7 @@
       data-menu="vertical-menu-modern"
       data-col="2-columns"
     >
-      <header></header>
+      <Header></Header>
       <Sidebar></Sidebar>
 
       <div class="app-content content">
@@ -37,7 +37,7 @@
                           <td class="product-name">Talk to a doctor</td>
                           <td>
                             <nuxt-link
-                              to="waiting"
+                              to="/patients/waiting"
                               class="btn btn-sm btn-primary float-right"
                               >View</nuxt-link
                             >
@@ -47,7 +47,7 @@
                           <td class="product-name">Schedule Home Visit</td>
                           <td>
                             <nuxt-link
-                              to="schedulehome"
+                              to="/patients/schedulehome"
                               class="btn btn-sm btn-primary float-right"
                               >View</nuxt-link
                             >
@@ -57,7 +57,7 @@
                           <td class="product-name">Case File</td>
                           <td>
                             <nuxt-link
-                              to="casefile"
+                              to="/patients/casefile"
                               class="btn btn-sm btn-primary float-right"
                               >View</nuxt-link
                             >
@@ -67,7 +67,7 @@
                           <td class="product-name">Request For a Nurse</td>
                           <td>
                             <nuxt-link
-                              to="requestnurse"
+                              to="/patients/requestnurse"
                               class="btn btn-sm btn-primary float-right"
                               >View</nuxt-link
                             >

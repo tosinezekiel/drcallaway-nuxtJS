@@ -94,13 +94,13 @@
           </li>
           <li class=" nav-item">
             <nuxt-link to="/doctor/changepassword"
-              ><ion-icon name="medical-outline" style="margin-right:1em;"></ion-icon>
+              ><ion-icon name="settings-outline" style="margin-right:1em;"></ion-icon>
               <span class="menu-title">Change Password</span>
             </nuxt-link>
           </li>
           <li class=" nav-item">
             <nuxt-link to="../logout"
-              ><ion-icon name="enter-outline" style="margin-right:1em;"></ion-icon>
+              ><ion-icon name="exit-outline" style="margin-right:1em;"></ion-icon>
               <span class="menu-title" data-i18n="Raise Support"
                 >Logout</span
               ></nuxt-link

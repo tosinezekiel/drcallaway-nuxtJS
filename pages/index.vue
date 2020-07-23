@@ -1,13 +1,13 @@
 <template>
 <!-- BEGIN: Content-->
-    <div class="app-content content">
+    <div class="app-content content justify-content-center" style="margin-left:0;">
         <div class="content-overlay"></div>
         <div class="header-navbar-shadow"></div>
         <div class="content-wrapper">
             <div class="content-header row">
             </div>
             <div class="content-body">
-                <section class="row flexbox-container">  
+                <section class="row flexbox-container justify-content-center">  
                     <div class="col-xl-8 col-11 d-flex justify-content-center">
                         <div class="card rounded-0 mb-0">
                             <div class="row m-0">
@@ -29,8 +29,8 @@
                                         <ion-icon name="chevron-down-outline" style="align-self:center;text-alifgn:center"></ion-icon>
                                         <div class="card-content">
                                             <div class="card-body pt-1 d-flex justify-content-center">
-                                                <nuxt-link to="/patients/signup" style="text-align: center;">Patient | </nuxt-link>
-                                                <nuxt-link to="/doctor/signup" style="text-align: center;"> doctor | </nuxt-link>
+                                                <nuxt-link to="/Patients/signup" style="text-align: center;">Patient | </nuxt-link>
+                                                <nuxt-link to="/Doctor/signup" style="text-align: center;"> doctor | </nuxt-link>
                                                 <nuxt-link to="#" style="text-align: center;"> Phamarcy</nuxt-link>
                                             </div>
                                         </div>

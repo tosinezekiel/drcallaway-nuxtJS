@@ -6,7 +6,7 @@
       data-menu="vertical-menu-modern"
       data-col="2-columns"
     >
-      <header></header>
+      <Header></Header>
       <Sidebar></Sidebar>
 
       <div class="app-content content">

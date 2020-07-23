@@ -6,7 +6,7 @@
       data-menu="vertical-menu-modern"
       data-col="2-columns"
     >
-      <header></header>
+      <Header></Header>
       <Sidebar></Sidebar>
 
       <div class="app-content content">
@@ -62,7 +62,7 @@
                             <li class="nav-item">
                               <nuxt-link
                                 class="btn btn-primary va-btn"
-                                to="/doctor/casefile/viewfile"
+                                to="/Doctor/casefile/viewfile"
                                 >View Files</nuxt-link>
                               
                             </li>

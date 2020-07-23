@@ -6,7 +6,7 @@
       data-menu="vertical-menu-modern"
       data-col="2-columns"
     >
-      <header></header>
+      <Header></Header>
       <Sidebar></Sidebar>
 
       <div class="app-content content">
@@ -93,7 +93,7 @@
                                         <td class="product-name">1. X-ray Scan results</td>
                                         <td>
                                           <nuxt-link
-                                            to="/doctor/casefile/file"
+                                            to="/Doctor/casefile/file"
                                             ><ion-icon name="eye" style="font-size:2em;"></ion-icon></nuxt-link
                                           >
                                         </td>
@@ -102,7 +102,7 @@
                                         <td class="product-name" >2. Stictched Points</td>
                                         <td>
                                           <nuxt-link
-                                            to="/doctor/casefile/file"
+                                            to="/Doctor/casefile/file"
                                             ><ion-icon name="eye" style="font-size:2em;"></ion-icon></nuxt-link>
                                         </td>
                                       </tr>
@@ -110,7 +110,7 @@
                                         <td class="product-name">3. Medical Report from Lab</td>
                                         <td>
                                           <nuxt-link
-                                            to="/doctor/casefile/file"
+                                            to="/Doctor/casefile/file"
                                             ><ion-icon name="eye" style="font-size:2em;"></ion-icon></nuxt-link
                                           >
                                         </td>

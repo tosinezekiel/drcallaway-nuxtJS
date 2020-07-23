@@ -6,7 +6,7 @@
       data-menu="vertical-menu-modern"
       data-col="2-columns"
     >
-      <header></header>
+      <Header></Header>
       <Sidebar></Sidebar>
 
       <div class="app-content content">
@@ -69,7 +69,7 @@
                           </form>
                         </div>
                         <div class="col-12 d-flex justify-content-start">
-                          <nuxt-link to="editprofile" class="btn btn-primary"
+                          <nuxt-link to="#" class="btn btn-primary"
                             ><i class="feather"></i> Submit</nuxt-link
                           >
                         </div>

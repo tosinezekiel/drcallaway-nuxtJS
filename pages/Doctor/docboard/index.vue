@@ -6,7 +6,7 @@
       data-menu="vertical-menu-modern"
       data-col="2-columns"
     >
-      <header></header>
+      <Header></Header>
       <Sidebar></Sidebar>
 
       <div class="app-content content">
@@ -42,7 +42,7 @@
                       >2+</span
                     ></sup
                   >
-                  <nuxt-link to="/doctor/patients" class="">
+                  <nuxt-link to="/Doctor/patients" class="">
                     <div
                       class="card d-flex flex-column justify-content-center"
                       style="border-radius: 33px;background: #F8F8F8;box-shadow: none;"
@@ -83,7 +83,7 @@
                       >4+</span
                     ></sup
                   >
-                  <nuxt-link to="/doctor/casefile" class="a-card">
+                  <nuxt-link to="/Doctor/casefile" class="a-card">
                     <div
                       class="card d-flex flex-column justify-content-center"
                       style="border-radius: 33px;background: #F8F8F8;box-shadow: none;"
@@ -129,7 +129,7 @@
                       >4+</span
                     ></sup
                   >
-                  <nuxt-link to="message" class="a-card">
+                  <nuxt-link to="/Doctor/message" class="a-card">
                     <div
                       class="card d-flex flex-column justify-content-center"
                       style="border-radius: 33px;background: #F8F8F8;box-shadow: none;"
